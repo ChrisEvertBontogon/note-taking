@@ -73,8 +73,11 @@ A simple app that let's you add, retrieve, update and delete notes.
 
         Response
 
-        ```json
+        ```javascript
         Status: 201 Created
+        ```
+
+        ```json
         {
             "id": 4,
             "body": "Adding a note",
@@ -92,8 +95,11 @@ A simple app that let's you add, retrieve, update and delete notes.
 
         Response
 
-        ```json
+        ```javascript
         Status: 200 OK
+        ```
+
+        ```json
         [
             {
                 "id": 1,
@@ -128,8 +134,11 @@ A simple app that let's you add, retrieve, update and delete notes.
 
         Response
 
-        ```json
+        ```javascript
         Status: 200 OK
+        ```
+
+        ```json
         {
             "id": 1,
             "title": "TV series",
@@ -152,8 +161,11 @@ A simple app that let's you add, retrieve, update and delete notes.
 
             Response
 
-            ```json
+            ```javascript
             Status: 200 OK
+            ```
+
+            ```json
             {
                 "id": 1,
                 "title": "My TV series!",
@@ -174,8 +186,11 @@ A simple app that let's you add, retrieve, update and delete notes.
 
             Response
 
-            ```json
+            ```javascript
             Status: 201 Created
+            ```
+
+            ```json
             {
                 "id": 5,
                 "body": "Updating a non existing note",
@@ -193,7 +208,7 @@ A simple app that let's you add, retrieve, update and delete notes.
 
         Response
 
-        ```json
+        ```javascript
         Status: 204 No Content
         ```
 
@@ -207,7 +222,7 @@ A simple app that let's you add, retrieve, update and delete notes.
 
         Response
 
-        ```json
+        ```javascript
         Status: 404 No Found
         Body: Note not found.
         ```
@@ -222,8 +237,11 @@ A simple app that let's you add, retrieve, update and delete notes.
 
         Response
 
-        ```json
+        ```javascript
         Status: 422 Unprocessable Entity
+        ```
+
+        ```json
         {
             "errors": [
                 {
@@ -247,7 +265,7 @@ A simple app that let's you add, retrieve, update and delete notes.
 
         Response
 
-        ```json
+        ```javascript
         Status: 404 No Found
         Body: Resource not found.
         ```
